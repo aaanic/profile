@@ -29,7 +29,7 @@ a {
 
 .heading:hover {
   color: #fbfbfb;
-
+  text-shadow: 6px 6px 18px #FC589E;
 }
 
 .heading:hover:after {
@@ -89,6 +89,23 @@ p {
   color: #FBFBFB;
 }
 
+.teasers {
+  list-style: none;
+  display: inline-block;
+}
+
+.teaser-card {
+  width: 80%;
+  margin: 50px;
+}
+
+.teaser-card:hover {
+  box-shadow: 10px 10px 20px #FC589E;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
@@ -98,7 +115,6 @@ p {
   display: inline-block;
   padding: 0px 20px;
   font-size: 50px;
-
 }
 
 .list-inline i {
@@ -110,10 +126,4 @@ p {
   color: #fbfbfb;
   opacity: 1;
 }
-
-.teaser-card {
-  height: 300px;
-  margin: 20px;
-}
-
 
