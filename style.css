@@ -1,0 +1,119 @@
+.container {
+  max-width: 1000px;   /* This sets the width */
+  margin: 0 auto;
+
+}
+
+.card {
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.header {
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+  color: #FC589E;
+  padding: auto;
+  margin-top: 180px;
+}
+
+.heading:hover {
+  color: #fbfbfb;
+
+}
+
+.heading:hover:after {
+  position: relative;
+  content: url(images/anic.jpg);
+  display: block;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+  z-index: -1;
+}
+
+body {
+  background-color: #1D1D21;
+  text-align: center;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: #FBFBFB;
+  line-height: 25px;
+  font-size: 14px;
+
+}
+
+.profile {
+  width: 50%;
+  position: realtive;
+
+}
+
+.primary-btn {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+  padding: 20px;
+  color: #FC589E;
+
+  background-color: #1D1D21;
+  border: 2px solid #FC589E;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.primary-btn:hover {
+  text-decoration: none;
+  color: #03c7ff;
+  background-color: #FC589E;
+}
+
+.related-content {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 60px;
+  color: #FBFBFB;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+
+}
+
+.list-inline i {
+  color: #fbfbfb;
+  opacity: 0.5;
+}
+
+.list-inline i:hover {
+  color: #fbfbfb;
+  opacity: 1;
+}
+
+.teaser-card {
+  height: 300px;
+  margin: 20px;
+}
+
+
