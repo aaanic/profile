@@ -264,10 +264,21 @@ a {
   .banner--content {
     display: block;
   }
-  @media only screen and (max-width: 400px) {
-    h2 {
-      font-size: 4em;
-    }
-    .section {
-      padding: 3em 0;}
+}
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 4em;
+  }
+  .section {
+    padding: 3em 0;
+  }
+  .download--text {
+    font-size: 2em;
+  }
+  .ticker-wrap {
+    height: 6rem;
+  }
+  .ticker-wrap .ticker__item {
+    font-size: 6rem;
+  }
 }
