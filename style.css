@@ -86,6 +86,10 @@ p {
   background-color: #d23c37;
   color: #fff;
 }
+
+.section-red a {
+  color: #fff;
+}
 .section--text {
   width: 90%;
   margin: 0 auto;
@@ -230,8 +234,12 @@ svg {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #d23c37;
+}
+
+.download--text {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 920px) {
