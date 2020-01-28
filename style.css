@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:700&display=swap");
 
 .container {
+  width: 100%;
   max-width: 1000px; /* This sets the width */
   margin: 0 auto;
 }
@@ -76,8 +77,9 @@ p {
   height: 85vh;
 }
 .section {
-  padding: 80px 0;
+  padding: 5em 0;
   margin: 0;
+  overflow: hidden;
 }
 
 .section-red {
@@ -232,4 +234,40 @@ svg {
 a {
   text-decoration: none;
   color: #d23c37;
+}
+
+@media only screen and (max-width: 920px) {
+  .section--text.row {
+    display: block;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 0.25em;
+  }
+
+  .section--text.footer {
+    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer--text {
+    padding: 0;
+  }
+  .download--text {
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .banner--content {
+    display: block;
+  }
+  @media only screen and (max-width: 400px) {
+    h2 {
+      font-size: 4em;
+    }
+    .section {
+      padding: 3em 0;}
 }
